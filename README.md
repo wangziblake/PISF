@@ -12,7 +12,7 @@ Homepage: http://csrc.xmu.edu.cn
 xx
 
 
-## Training datasets of PISF
+## Training datasets for PISF
 The synthetic training datasets used in PISF are shared at: xx.
 
 After requesting the access, please email me at wangzi1023@stu.xmu.edu.cn.

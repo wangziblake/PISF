@@ -1,4 +1,4 @@
-# PISF: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI - One AI Model for Multi-scenario Reconstructions
+# Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI - One AI Model for Multi-scenario Reconstructions
 Coming soon.
 
 The preprint paper can be seen in xx.

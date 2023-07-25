@@ -6,7 +6,6 @@ This work presents a Physics-Informed Synthetic data learning framework for Fast
 3) PISF’s superior adaptability to patients has been verified through 10 experienced doctors’ evaluations (4 neuro radiologists and 1 neurosurgeon for brain tumor patients, and 3 cardiac radiologists and 2 cardiologists for myocardial hypertrophy patients)—its overall image quality steps into the excellent level in reader study.
 
 In summary, PISF provides a feasible and cost-effective way to markedly boost the widespread usage of DL in various fast MRI applications, while freeing from the intractable ethical and practical considerations of in vivo human data acquisitions. 
-
 ![Image test](https://github.com/wangziblake/PISF/blob/main/Figure/OverallConcept_PISF.png)
 
 The preprint paper can be seen in xx.

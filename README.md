@@ -5,7 +5,9 @@ This work presents a Physics-Informed Synthetic data learning framework for Fast
 2) Our PISF shows impressive generalizability in multi-vendor multi-center imaging—it can reconstruct high-quality images of 4 anatomies and 5 contrasts across 5 vendors and centers using a single trained network.
 3) PISF’s superior adaptability to patients has been verified through 10 experienced doctors’ evaluations (4 neuro radiologists and 1 neurosurgeon for brain tumor patients, and 3 cardiac radiologists and 2 cardiologists for myocardial hypertrophy patients)—its overall image quality steps into the excellent level in reader study.
 
-In summary, PISF provides a feasible and cost-effective way to markedly boost the widespread usage of DL in various fast MRI applications, while freeing from the intractable ethical and practical considerations of in vivo human data acquisitions. We believe that, this proof-of-concept demonstration of applying the physics-informed synthetic data learning will open a new avenue for the widespread application of DL in MRI. 
+In summary, PISF provides a feasible and cost-effective way to markedly boost the widespread usage of DL in various fast MRI applications, while freeing from the intractable ethical and practical considerations of in vivo human data acquisitions. 
+
+We believe that, this proof-of-concept demonstration of applying the physics-informed synthetic data learning will open a new avenue for the widespread application of DL in MRI. 
 
 The preprint paper can be seen in xx.
 

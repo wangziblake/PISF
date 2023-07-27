@@ -8,7 +8,7 @@ This work presents a Physics-Informed Synthetic data learning framework for Fast
 In summary, PISF provides a feasible and cost-effective way to markedly boost the widespread usage of DL in various fast MRI applications, while freeing from the intractable ethical and practical considerations of *in vivo* human data acquisitions. 
 ![OverallConcept_PISF](https://github.com/wangziblake/PISF/blob/main/Figure/OverallConcept_PISF.png)
 
-The preprint paper can be seen at https://arxiv.org/abs/2307.13220.
+The preprint paper can be seen at https://doi.org/10.48550/arXiv.2307.13220.
 
 Email: Xiaobo Qu (quxiaobo@xmu.edu.cn) CC: Zi Wang (wangzi1023@stu.xmu.edu.cn)
 
@@ -28,4 +28,5 @@ After requesting the access, please email me at wangzi1023@stu.xmu.edu.cn.
 ## Citation
 If you want to use the code and training datasets, please cite the following paper:
 
-Zi Wang et al., One for Multiple: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI Reconstruction, arXiv:2307.13220, 2023.
+Zi Wang et al., One for Multiple: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI Reconstruction, arXiv:2307.13220, 
+DOI: 10.48550/arXiv.2307.132202023.

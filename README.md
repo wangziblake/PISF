@@ -18,11 +18,11 @@ Homepage: http://csrc.xmu.edu.cn
 ## Testing codes of PISF
 The testing codes of PISF are released here.
 
-Install conda environment
+Install conda environment:
 ```bash
 conda env create -f environment
 ```
-Run the main code for reconstruction
+Run the main code for reconstruction:
 ```python
 python PISF_Recon_Enhance.py
 ```

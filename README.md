@@ -24,6 +24,8 @@ Implementation tips: If you want to test on your own collected data, they should
 
 Data availability: All used public datasets are available at their websites, including https://fastmri.org, http://www.mridata.org, and https://ocmr.info. Other in-house MRI datasets from our own collection are available from the corresponding author upon reasonable request.
 
+Note: The software is used for testing only, and cannot be used in a commercial way.
+
 
 ## Training datasets for PISF
 The synthetic training datasets used in PISF are shared at: Coming soon.

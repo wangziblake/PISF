@@ -1,0 +1,105 @@
+# ***************************************************************************************** #
+# This is the project folder for the PISF paper, including the code, running environment file, and data.
+#
+# More details about the paper could be found by:
+# Zi Wang et al.
+# One to Multiple: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI Reconstruction,
+# arXiv:2307.13220, DOI:10.48550/arXiv.2307.13220, 2023.
+#
+# Email: Zi Wang (wangzi1023@stu.xmu.edu.cn; wangziblake@163.com) CC: Xiaobo Qu (quxiaobo@xmu.edu.cn)
+# Homepage: http://csrc.xmu.edu.cn
+# 
+# Affiliations: Computational Sensing Group (CSG), Departments of Electronic Science, Xiamen University, Xiamen 361005, China
+# All rights are reserved by CSG.
+#
+# The project files are arranged by Zi Wang.
+# Latest update: September 12, 2023.
+# ***************************************************************************************** #
+
+# ***************************************************************************************** #
+# The software is used for testing only, and cannot be used in a commercial way.
+# ***************************************************************************************** #
+
+Python environment should be:
+python=3.6.13
+pytorch=1.10.1
+
+Implementation tips: 
+If you want to test on your own collected data, they should be stored in the same format as the demo data we provided and be 8-coil or compressed/extended to 8-coil.
+If you encounter any problems, feel free to contact us for help.
+
+Data availability:
+All used public datasets are available at their websites, including https://fastmri.org, http://www.mridata.org, and https://ocmr.info.
+Other in-house MRI datasets from our own collection are available from the corresponding author upon reasonable request.
+
+File list:
+Below are details about what are included under the root folder 'PISF_Test_Lite'.
+
+----PISF_Test_Lite\
+    |----DemoData_Result\
+    |    |----TestData\
+    |    |    |----FastMRI_T2WBrain\			# From: https://fastmri.org
+    |    |    |    |----1D_Cartesian\
+    |    |    |    |    |----SR25\
+    |    |    |    |    |    |----K_Data_Part2.mat
+    |    |    |    |    |    |----K_Data_Part1.mat
+    |    |    |    |----2D_Random\
+    |    |    |    |    |----SR13\
+    |    |    |    |    |    |----K_Data_Part2.mat
+    |    |    |    |    |    |----K_Data_Part1.mat
+    |    |    |----Siemens_CineCardiac_Patient\		# From: In-house acquisition
+    |    |    |    |----1D_Cartesian\
+    |    |    |    |    |----SR33\
+    |    |    |    |    |    |----K_Data_Part2.mat
+    |    |    |    |    |    |----K_Data_Part9.mat
+    |    |    |    |    |    |----K_Data_Part6.mat
+    |    |    |    |    |    |----K_Data_Part1.mat
+    |    |    |    |    |    |----K_Data_Part11.mat
+    |    |    |    |    |    |----K_Data_Part10.mat
+    |    |    |    |    |    |----K_Data_Part5.mat
+    |    |    |    |    |    |----K_Data_Part4.mat
+    |    |    |    |    |    |----K_Data_Part7.mat
+    |    |    |    |    |    |----K_Data_Part12.mat
+    |    |    |    |    |    |----K_Data_Part8.mat
+    |    |    |    |    |    |----K_Data_Part3.mat
+    |    |    |----Philips_T2FBrain_Patient\		# From: In-house acquisition
+    |    |    |    |----2D_Random\
+    |    |    |    |    |----SR20\
+    |    |    |    |    |    |----K_Data_Part1.mat
+    |    |    |----FastMRI_PDWKnee\			# From: https://fastmri.org
+    |    |    |    |----1D_Cartesian\
+    |    |    |    |    |----SR25\
+    |    |    |    |    |    |----K_Data_Part2.mat
+    |    |    |    |    |    |----K_Data_Part1.mat
+    |    |    |    |----2D_Random\
+    |    |    |    |    |----SR13\
+    |    |    |    |    |    |----K_Data_Part2.mat
+    |    |    |    |    |    |----K_Data_Part1.mat
+    |    |    |----GE_PDWAnkle\				# From: http://www.mridata.org
+    |    |    |    |----1D_Cartesian\
+    |    |    |    |    |----SR25\
+    |    |    |    |    |    |----K_Data_Part1.mat
+    |    |    |----UI_T1FBrain\				# From: In-house acquisition
+    |    |    |    |----1D_Cartesian\
+    |    |    |    |    |----SR33\
+    |    |    |    |    |    |----K_Data_Part1.mat
+    |----Readme.txt
+    |----PISF_Network_socode\
+    |    |----environment.yaml
+    |    |----PISF\
+    |    |    |----PISF_SynData\
+    |    |    |    |----Saved_Model.pth
+    |    |    |----PISF_Recon_Enhance.py		# Run for reconstruction
+    |    |----Tools\
+    |    |    |----Tools.so
+    |    |    |----Enhancement.so
+    |    |    |----Evaluation.so
+    |    |    |----Loaddata_1DLearning.so
+    |    |----Models\
+    |    |    |----PISF_Model_Enhance.so
+    |    |    |----PISF_Model_2DinTest_Enhance.so
+
+# ---------------------------------- The end of the file --------------------------------#
+
+
+

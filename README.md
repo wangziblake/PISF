@@ -18,6 +18,15 @@ Homepage: http://csrc.xmu.edu.cn
 ## Testing codes of PISF
 The testing codes of PISF are released here.
 
+install conda enviroment
+```bash
+conda env create -f enviroment
+```
+run the program
+```python
+python PISF_Recon_Enhance.py
+```
+
 Python environment should be: python=3.6.13, pytorch=1.10.1
 
 Implementation tips: If you want to test on your own collected data, they should be stored in the same format as the demo data we provided and be 8-coil or compressed/extended to 8-coil.

@@ -16,7 +16,18 @@ Homepage: http://csrc.xmu.edu.cn
 
 
 ## Testing codes of PISF
-Coming soon.
+The testing codes of PISF are released here.
+
+Python environment should be:
+python=3.6.13
+pytorch=1.10.1
+
+Implementation tips: 
+If you want to test on your own collected data, they should be stored in the same format as the demo data we provided and be 8-coil or compressed/extended to 8-coil.
+
+Data availability:
+All used public datasets are available at their websites, including https://fastmri.org, http://www.mridata.org, and https://ocmr.info.
+Other in-house MRI datasets from our own collection are available from the corresponding author upon reasonable request.
 
 
 ## Training datasets for PISF

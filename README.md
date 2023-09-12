@@ -22,7 +22,7 @@ Install conda environment
 ```bash
 conda env create -f environment
 ```
-Run the program
+Run the main code for reconstruction
 ```python
 python PISF_Recon_Enhance.py
 ```

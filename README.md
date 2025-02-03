@@ -1,5 +1,5 @@
 # One AI Model for Multi-scenario Reconstructions: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI
-This work presents a Physics-Informed Synthetic data learning framework for Fast MRI, called PISF, which is the first to enable generalizable DL for multi-scenario MRI reconstruction using solely one trained model.
+This work presents a Physics-Informed Synthetic data learning Framework for fast MRI, called PISF, which is the first to enable generalizable DL for multi-scenario MRI reconstruction using solely one trained model.
 
 1) We demonstrate that training DL models on synthetic data, integrated with enhanced learning techniques, can achieve comparable or even better *in vivo* MRI reconstruction compared to models trained on a matched realistic dataset—PISF reduces the demand for real-world MRI data by up to 96%. 
 2) Our PISF shows impressive generalizability in multi-vendor multi-center imaging—it can reconstruct high-quality images of 4 anatomies and 5 contrasts across 5 vendors and centers using a single trained network.

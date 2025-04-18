@@ -10,6 +10,8 @@ In summary, PISF provides a feasible and cost-effective way to markedly boost th
 
 The preprint paper can be seen at https://doi.org/10.48550/arXiv.2307.13220.
 
+This paper has been accepted by Medical Image Analysis (2025), in press.
+
 Email: Xiaobo Qu (quxiaobo@xmu.edu.cn) CC: Zi Wang (wangzi1023@stu.xmu.edu.cn)
 
 Homepage: http://csrc.xmu.edu.cn
@@ -39,4 +41,4 @@ Note: The software is used for testing only, and cannot be used commercially.
 ## Citation
 If you want to use the code, please cite the following paper:
 
-Zi Wang et al., One for Multiple: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI Reconstruction, arXiv:2307.13220, DOI: 10.48550/arXiv.2307.13220, 2023.
+Zi Wang et al., One for Multiple: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI Reconstruction, Medical Image Analysis, in press, 2025.

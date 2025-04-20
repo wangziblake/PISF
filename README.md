@@ -10,7 +10,7 @@ In summary, PISF provides a feasible and cost-effective way to markedly boost th
 
 The preprint paper can be seen at https://doi.org/10.48550/arXiv.2307.13220.
 
-This paper has been accepted by Medical Image Analysis (2025), in press.
+This paper has been accepted by Medical Image Analysis (2025) at https://doi.org/10.1016/j.media.2025.103616.
 
 Email: Xiaobo Qu (quxiaobo@xmu.edu.cn) CC: Zi Wang (wangzi1023@stu.xmu.edu.cn)
 

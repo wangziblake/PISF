@@ -14,8 +14,6 @@ This paper has been accepted by Medical Image Analysis (2025) at https://doi.org
 
 Email: Dr. Zi Wang (zi.wang@imperial.ac.uk); Dr. Xiaobo Qu (quxiaobo@xmu.edu.cn)
 
-Homepage: http://csrc.xmu.edu.cn
-
 
 ## Testing codes of PISF
 The testing codes of PISF are released here.

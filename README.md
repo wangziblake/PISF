@@ -39,4 +39,4 @@ Note: The software is used for testing only, and cannot be used commercially.
 ## Citation
 If you want to use the code, please cite the following paper:
 
-Zi Wang et al., One for Multiple: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI Reconstruction, Medical Image Analysis, 103: 103616, 2025.
+Zi Wang et al., One for Multiple: Physics-informed Synthetic Data Boosts Generalizable Deep Learning for Fast MRI Reconstruction, ***Medical Image Analysis***, 103: 103616, 2025.
